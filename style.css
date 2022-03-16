@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    padding: 50px;
+    background: hsl(212, 45%, 89%);
+}
+
+.container-tarjeta{
+    width: 300px;
+    height: 480px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.09)
+}
+
+#qr{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.container-texto{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#titulo{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#parrafo{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding: 10px;
+}
+
+.attribution{
+   padding: 20px;
+}
